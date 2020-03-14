@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/p5.unity
+- path: Assets/Scenes/CovTrack.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
