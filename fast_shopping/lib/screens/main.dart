@@ -50,16 +50,16 @@ class _MainScreenState extends State<MainScreen> {
       actions: [
         PopupMenuButton<String>(
           itemBuilder: (context) => [
-            PopupMenuItem(
-              value: 'donate',
-              child: Row(
-                children: [
-                  const Icon(Icons.attach_money),
-                  const SizedBox(width: 16),
-                  Text('menu_donate'.i18n),
-                ],
-              ),
-            ),
+          //  PopupMenuItem(
+          //    value: 'donate',
+          //    child: Row(
+          //      children: [
+          //        const Icon(Icons.attach_money),
+          //        const SizedBox(width: 16),
+          //        Text('menu_donate'.i18n),
+         //       ],
+         //     ),
+         //   ),
             PopupMenuItem(
               value: 'licenses',
               child: Row(
